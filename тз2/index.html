@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru,en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Test</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="js/google-translate.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=TranslateInit"></script>
+</head>
+<body>
+	<div class="wraper">
+		<header>
+			<div class="layer1">
+				<div class="container">				
+					<div class="row">
+						<div class="menu__burger"><span></span></div>
+						<nav class="menu">
+							<div class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="#" class="menu__link">О компании</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Акции и скидки</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Блог</a></li>
+								</ul>
+							</div>
+						</nav>
+						<form action="#" class="search_form" id="search_form">
+							<div class="form__body">
+								<label for="input_search" class="label_search"><img src="img/magnifier.png" alt="search"></label>
+								<input type="search" class="input_search" id="input_search" placeholder="Поиск" form="search_form">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="layer2">	
+				<div class="container">
+					<div class="row">
+						<div class="name">
+							<h1>название компании</h1>
+						</div>
+						<div class="lacation">
+							<div class="lacation__icon"><button class="locatoin__btm " id="locatoin__btm"><img src="img/Векторный_смарт-объект.png" alt="lacation"></button></div>
+							<div class="border_line"></div>
+							<div class="lacation__text">
+								г. Орёл,<br> ул. Ленина 1
+							</div>
+						</div>
+						<div class="connection">
+							<div class="connection__call">
+								<button class="connection__btm" id="btm_call"><img src="img/call.png" alt="call"></button>
+							</div>
+							<div class="border_line"></div>
+							<div class="connection__tel">
+								<p class="tel">+7 (4862) 78-17-55</p>
+								<p class="tel_text"><a href="#">Обратная связь</a></p>
+							</div>	
+							<!-- <form action="#" class="connection__form" id="connection__form"></form> -->
+						</div>
+						<div class="translator">
+							<div class="btm_ru translator__btm" id="btm_ru"><img src="img/russia.png" alt="ru" data-google-lang="ru" class="language__img"> ru</div>
+							 <div class="border_line"></div>
+							 <div class="btm_en translator__btm" id="btm_en">en <img src="img/united-kingdom.png" alt="en" data-google-lang="en" class="language__img"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="preview">
+				<div class="container">
+					<div class="preview__column">
+						<div class="big_text">
+							<h2>Большой Заголовок <br>
+акция только сегодня</h2>
+						</div>
+						<div class="medium_text">
+							<p>Большой текст об услуге</p>
+						</div>	
+						<div class="small_text">
+							<p>Текст меньше</p>
+						</div>
+						<div class="thorough">
+							<a href="#">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="promo">
+				<div class="container">
+						<div class="promotion_discount">
+							<h2>акции и скидки</h2>
+						</div>
+						<div class="promotions_lict">
+
+							<a href="#" class="promotions_iten"><img src="img/Layer_24.png" alt=""> Акция 1</a>
+							<hr  color="#ededed">
+							<a href="#" class="promotions_iten"><img src="img/Layer_24.png" alt="">Акция 2</a>
+							<hr color="#ededed">
+							<a href="#" class="promotions_iten"><img src="img/Layer_24.png" alt="" >Акция 3</a>
+						</div>
+
+				
+					<div class="promo__catalog">
+						<a href="#">
+							в каталог
+							<img src="img/Прямоугольник_6.png" alt="">
+						</a>
+					</div>
+				</div>
+
+			</section>
+		</main>
+	</div>
+
+</body>
+</html>
